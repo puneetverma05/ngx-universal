@@ -178,6 +178,7 @@ export class CookieService implements ICookieService {
     str += opts.path ? ';path=' + opts.path : '';
     str += opts.domain ? ';domain=' + opts.domain : '';
     str += expires ? ';expires=' + expires.toUTCString() : '';
+    str += opts.sameSite ? ';sameSite=' + opts.sameSite : '' ;
     str += opts.secure ? ';secure' : '';
     str += opts.httpOnly ? '; HttpOnly' : '';
 

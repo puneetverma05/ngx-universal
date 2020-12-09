@@ -28,4 +28,5 @@ export interface CookieOptions {
   secure?: boolean;
   httpOnly?: boolean;
   storeUnencoded?: boolean;
+  sameSite?: string;
 }
