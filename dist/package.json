@@ -1,0 +1,47 @@
+{
+  "name": "@gorniv/ngx-universal",
+  "version": "2.1.2",
+  "description": "Packages for Angular Universal",
+  "keywords": [
+    "angular",
+    "universal",
+    "angular-library",
+    "ssr",
+    "typescript"
+  ],
+  "author": "gorniv <gornivv@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gorniv/ngx-universal.git"
+  },
+  "maintainers": [
+    {
+      "name": "gorniv",
+      "email": "gornivv@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Gorniv/ngx-universal/issues"
+  },
+  "homepage": "https://github.com/Gorniv/ngx-universal",
+  "peerDependencies": {
+    "@angular/compiler": ">=6.0.0",
+    "@angular/platform-browser": ">=6.0.0",
+    "@angular/common": ">=6.0.0",
+    "@angular/core": ">=6.0.0",
+    "rxjs": ">=6.0.0",
+    "typescript": ">=2.7.0",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/gorniv-ngx-universal.umd.js",
+  "module": "fesm5/gorniv-ngx-universal.js",
+  "es2015": "fesm2015/gorniv-ngx-universal.js",
+  "esm5": "esm5/gorniv-ngx-universal.js",
+  "esm2015": "esm2015/gorniv-ngx-universal.js",
+  "fesm5": "fesm5/gorniv-ngx-universal.js",
+  "fesm2015": "fesm2015/gorniv-ngx-universal.js",
+  "typings": "gorniv-ngx-universal.d.ts",
+  "metadata": "gorniv-ngx-universal.metadata.json",
+  "sideEffects": false
+}
